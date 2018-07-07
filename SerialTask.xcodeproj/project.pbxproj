@@ -15,6 +15,9 @@
 		401B159F20F0AD6E007FD03D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B159E20F0AD6E007FD03D /* main.m */; };
 		401B15A920F0AD6E007FD03D /* SerialTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B15A820F0AD6E007FD03D /* SerialTaskTests.m */; };
 		401B15B420F0AD6E007FD03D /* SerialTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B15B320F0AD6E007FD03D /* SerialTaskUITests.m */; };
+		401B15C320F0ADE5007FD03D /* StartupSerialTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B15C220F0ADE5007FD03D /* StartupSerialTasks.m */; };
+		401B15C620F0AFE6007FD03D /* BFTask+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B15C520F0AFE6007FD03D /* BFTask+Private.m */; };
+		CBD244254F4635D585905F15 /* libPods-SerialTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03588641E6F19B791EE0E54F /* libPods-SerialTask.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03588641E6F19B791EE0E54F /* libPods-SerialTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SerialTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B158C20F0AD6E007FD03D /* SerialTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerialTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B158F20F0AD6E007FD03D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		401B159020F0AD6E007FD03D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		401B15AF20F0AD6E007FD03D /* SerialTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerialTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401B15B320F0AD6E007FD03D /* SerialTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialTaskUITests.m; sourceTree = "<group>"; };
 		401B15B520F0AD6E007FD03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401B15C120F0ADE5007FD03D /* StartupSerialTasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartupSerialTasks.h; sourceTree = "<group>"; };
+		401B15C220F0ADE5007FD03D /* StartupSerialTasks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartupSerialTasks.m; sourceTree = "<group>"; };
+		401B15C420F0AFE6007FD03D /* BFTask+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BFTask+Private.h"; sourceTree = "<group>"; };
+		401B15C520F0AFE6007FD03D /* BFTask+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BFTask+Private.m"; sourceTree = "<group>"; };
+		AC9CEB23ADB0EDDD92F5E6DA /* Pods-SerialTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-SerialTask/Pods-SerialTask.release.xcconfig"; sourceTree = "<group>"; };
+		E8F15BED996C169A8173E96C /* Pods-SerialTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerialTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SerialTask/Pods-SerialTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD244254F4635D585905F15 /* libPods-SerialTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				401B15A720F0AD6E007FD03D /* SerialTaskTests */,
 				401B15B220F0AD6E007FD03D /* SerialTaskUITests */,
 				401B158D20F0AD6E007FD03D /* Products */,
+				ABCF618D4A6A97855551DD56 /* Pods */,
+				A76129FEAD67DB5A4C035375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,10 @@
 				401B159020F0AD6E007FD03D /* AppDelegate.m */,
 				401B159220F0AD6E007FD03D /* ViewController.h */,
 				401B159320F0AD6E007FD03D /* ViewController.m */,
+				401B15C120F0ADE5007FD03D /* StartupSerialTasks.h */,
+				401B15C220F0ADE5007FD03D /* StartupSerialTasks.m */,
+				401B15C420F0AFE6007FD03D /* BFTask+Private.h */,
+				401B15C520F0AFE6007FD03D /* BFTask+Private.m */,
 				401B159520F0AD6E007FD03D /* Main.storyboard */,
 				401B159820F0AD6E007FD03D /* Assets.xcassets */,
 				401B159A20F0AD6E007FD03D /* LaunchScreen.storyboard */,
@@ -132,6 +149,23 @@
 			path = SerialTaskUITests;
 			sourceTree = "<group>";
 		};
+		A76129FEAD67DB5A4C035375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03588641E6F19B791EE0E54F /* libPods-SerialTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABCF618D4A6A97855551DD56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8F15BED996C169A8173E96C /* Pods-SerialTask.debug.xcconfig */,
+				AC9CEB23ADB0EDDD92F5E6DA /* Pods-SerialTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 401B15B820F0AD6E007FD03D /* Build configuration list for PBXNativeTarget "SerialTask" */;
 			buildPhases = (
+				02627E4EA65BC3405B6A2232 /* [CP] Check Pods Manifest.lock */,
 				401B158820F0AD6E007FD03D /* Sources */,
 				401B158920F0AD6E007FD03D /* Frameworks */,
 				401B158A20F0AD6E007FD03D /* Resources */,
+				31B7F77B37EF5C88797B77D3 /* [CP] Embed Pods Frameworks */,
+				4821CD421B7177098521BA18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +297,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02627E4EA65BC3405B6A2232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SerialTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B7F77B37EF5C88797B77D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SerialTask/Pods-SerialTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4821CD421B7177098521BA18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SerialTask/Pods-SerialTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		401B158820F0AD6E007FD03D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401B15C320F0ADE5007FD03D /* StartupSerialTasks.m in Sources */,
 				401B159420F0AD6E007FD03D /* ViewController.m in Sources */,
 				401B159F20F0AD6E007FD03D /* main.m in Sources */,
+				401B15C620F0AFE6007FD03D /* BFTask+Private.m in Sources */,
 				401B159120F0AD6E007FD03D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +518,7 @@
 		};
 		401B15B920F0AD6E007FD03D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F15BED996C169A8173E96C /* Pods-SerialTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +533,7 @@
 		};
 		401B15BA20F0AD6E007FD03D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9CEB23ADB0EDDD92F5E6DA /* Pods-SerialTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
