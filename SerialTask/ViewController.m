@@ -28,7 +28,7 @@
     NSLog(@"syncConcurrent---begin");
     
     // 创建队列
-    dispatch_queue_t queue = dispatch_queue_create("net.banggood", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue = dispatch_queue_create("net.wenwen", DISPATCH_QUEUE_CONCURRENT);
     
     dispatch_async(queue, ^{
         // 追加任务1
